@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.bw.ae.core</groupId>
+		<artifactId>service-parent</artifactId>
+		<version>0.0.7-SNAPSHOT</version>
+	</parent>
+	<groupId>com.bw.ae.wb-admintest</groupId>
+	<artifactId>ae-ae</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+	<description><![CDATA[todo : 模块说明]]></description>
+
+	<name>ae-ae</name>
+	<url>http://bwae.org</url>
+
+	<properties>
+		<ae.project.label>wb-admintest</ae.project.label>
+	</properties>
+	
+	<repositories>
+		<repository>
+			<id>ae-public</id>
+			<name>ae-public</name>
+			<url>http://maven.bwae.org/repository/ae-public/</url>
+			<layout>default</layout>
+			<releases>
+				<updatePolicy>never</updatePolicy>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+	<dependencies>
+	</dependencies>
+</project>
